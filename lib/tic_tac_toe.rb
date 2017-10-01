@@ -83,7 +83,7 @@ def play
       puts " Congratulations #{winner}!"
     end
   end
-  
+
   if draw?
     puts "Game over! Noone wins."
   end
