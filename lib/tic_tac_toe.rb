@@ -26,7 +26,7 @@ end
 def valid_move?(index)
   index.between?(0,8) && !position_taken?(index)
 end
-#********************************************  
+#********************************************
 def turn
   puts "Please enter 1-9:"
   input = gets
@@ -59,7 +59,7 @@ end
 #*********************************************
 def draw?
   full? && !won?
-    
+
 end
 #*****************************
 def over?
@@ -85,7 +85,7 @@ def play
   if draw?
     puts "Game over! Noone wins."
   end
-end  
+end
 
-  
+
 end
