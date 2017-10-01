@@ -80,7 +80,7 @@ def play
   while !over? && !won? do
     turn
     if won?
-      puts " Congratulations #{winner}!"
+      puts "Congratulations #{winner}!"
     end
   end
 
