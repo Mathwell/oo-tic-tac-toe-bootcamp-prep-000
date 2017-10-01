@@ -79,9 +79,9 @@ def play
   display_board
   while !over? && !won? do
     turn
-  end
-  if won?
-    puts "#{winner(board)} wins!"
+    if won?
+      puts "#{winner(board)} wins!"
+    end
   end
   if draw?
     puts "Game over! Noone wins."
