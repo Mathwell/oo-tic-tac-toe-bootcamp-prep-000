@@ -80,9 +80,10 @@ def play
   while !over? && !won? do
     turn
     if won?
-      puts "#{winner} wins!"
+      puts " Congratulations #{winner}!"
     end
   end
+  
   if draw?
     puts "Game over! Noone wins."
   end
