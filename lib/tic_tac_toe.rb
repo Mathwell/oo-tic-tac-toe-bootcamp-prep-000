@@ -77,7 +77,7 @@ end
 def play
   puts "Welcome to Tic Tac Toe!"
   display_board
-  while !over? || !won? do
+  while !over? && !won? do
     turn
   end
   if won?
