@@ -80,7 +80,7 @@ def play
   while !over? && !won? do
     turn
     if won?
-      puts "#{winner(board)} wins!"
+      puts "#{winner} wins!"
     end
   end
   if draw?
