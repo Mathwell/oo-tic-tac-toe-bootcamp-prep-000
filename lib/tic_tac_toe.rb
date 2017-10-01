@@ -84,7 +84,7 @@ def play
     puts "Congratulations #{winner}!"
   end
   if draw?
-    puts "Game over! Noone wins."
+    puts "Cat's Game!"
   end
 end
 
